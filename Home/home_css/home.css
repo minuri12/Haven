@@ -6,20 +6,21 @@ nav{
     align-items: baseline;
     position: absolute;
   }
-  nav ul{
+nav ul{
     float: right;
     margin-right: 30px;
   }
-  nav ul li{
+nav ul li{
     list-style-type: none;
     display: inline-block;
     transition: 0.7s all;
   }
-  nav ul li:hover{
+nav ul li:hover{
     background-color:#088;
   }
-  nav ul li a{
+nav ul li a{
     text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
     color: #fff;
     padding: 30px;
   }
