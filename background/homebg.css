@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(to right, green, #00ff00, #00ffff, #8000ff);
+    animation: gradient 20s ease infinite;
+    transition: background 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+body:hover {
+    background: linear-gradient(to right, #00ff00, #00ffff, #8000ff);
+}
+.container {
+    transform: rotate(180deg);
+    transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
